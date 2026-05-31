@@ -13,10 +13,10 @@ export const builders = [
 export const faqs = [
   {
     q: "Where will this start?",
-    a: "M14O Will start in smaller U.S Cities to Start putting smaller scale actions to work and study to scale up to bigger cities.",
+    a: "We're starting with small cities in Illinois and expanding from there. If your town has infrastructure challenges, we want to hear from you.",
   },
   {
     q: "What does M14O look like right now?",
-    a: "M14O Right Now Is A Tool Cities Can Use For Data They Have Already And Get Sustainable Solutions Blueprints Sustainable Reconstruction Projects And Sources For Funding For The Sustainble Solutions. M14O is designed to sit on top of existing tools and datasets rather than replace them CSV exports, GIS layers, imagery, and more.",
+    a: "A working platform. You log in, upload your data or site photos, and get AI-powered analysis with downloadable PDF reports. We're currently offering free pilot analyses to qualifying municipalities.",
   },
 ] as const;

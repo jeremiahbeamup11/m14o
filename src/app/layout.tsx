@@ -10,13 +10,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "M14O — the operating system for cities",
+  title: "M14O | AI Infrastructure Intelligence for Small Cities",
   description:
-    "M14O runs cities end to end with minimal human supervision. It's time for cities to run on the future.",
+    "Upload your municipal data. Get consultant-grade infrastructure analysis in 60 seconds. Risks, sustainability opportunities, redevelopment blueprints, and funding recommendations.",
   openGraph: {
-    title: "M14O — the operating system for cities",
+    title: "M14O | AI Infrastructure Intelligence for Small Cities",
     description:
-      "M14O runs cities end to end with minimal human supervision.",
+      "Upload your municipal data. Get consultant-grade infrastructure analysis in 60 seconds.",
     type: "website",
   },
 };

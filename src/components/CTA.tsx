@@ -19,17 +19,17 @@ export function Join() {
       <div className="mx-auto max-w-container px-5 text-center md:px-8">
         <Reveal>
           <p className="mb-6 text-sm font-medium uppercase tracking-[0.2em] text-white/60">
-            Any Interest In M14O?
+            Get Started
           </p>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="mx-auto max-w-3xl text-4xl font-semibold leading-[1.08] tracking-tight text-white md:text-6xl">
-            Lets Create The Future For Cities
+            Get a Free Pilot Analysis
           </h2>
         </Reveal>
         <Reveal delay={0.12}>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/75">
-            the next great city won&apos;t be run on guesswork. Lets Get The First City Running On M14O.
+            Send us your town&apos;s name and we&apos;ll deliver a sample infrastructure analysis within 48 hours. No cost, no commitment.
           </p>
         </Reveal>
         <Reveal delay={0.18}>
@@ -37,7 +37,7 @@ export function Join() {
             href="mailto:founders@m14o.com"
             className="mt-10 inline-block rounded-full bg-white px-8 py-3.5 text-sm font-medium text-black transition-transform hover:-translate-y-0.5"
           >
-            Contact
+            Request Pilot
           </a>
         </Reveal>
       </div>

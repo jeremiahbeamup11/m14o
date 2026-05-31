@@ -1,6 +1,7 @@
 "use client";
 
 import { Reveal } from "./Reveal";
+import { InfrastructureAnimation, BlueprintAnimation, ReportAnimation } from "./CardAnimations";
 import { builders } from "@/data/content";
 
 export function Intro() {
@@ -14,37 +15,32 @@ export function Intro() {
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="max-w-3xl text-3xl font-semibold leading-tight tracking-tight md:text-5xl">
-            An Operating System that runs cities end to end with minimal human supervision.
+            AI-powered infrastructure analysis for municipalities that need answers now.
           </h2>
         </Reveal>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
           {[
             {
-              t: "Autonomous Monitoring",
-              d: "Fully Autonomous Fleet Consistantly Monitoring City Infrastructure Searching For Inefficiencies Throughout The City.",
-              img: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&q=80&auto=format&fit=crop",
+              t: "Infrastructure Analysis",
+              d: "Upload water, energy, or waste data. Our AI identifies aging infrastructure, cost inefficiencies, and maintenance priorities with specific numbers from your data, not generic advice.",
+              animation: <InfrastructureAnimation />,
             },
             {
-              t: "A City Nervous System",
-              d: "The M14O OS Will Become The Nervous System Of Cities Around The World, Ingesting And Analyzing Data Collected And Already Existing City Data Outputting Sustainable Solutions That Lead To The Succesion Of Fully Sustainble Life In Cities.",
-              img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80&auto=format&fit=crop",
+              t: "Redevelopment Blueprints",
+              d: "Upload a photo of any site. Get a phased redevelopment plan with sustainability features, cost estimates, and a funding strategy using grants your town can actually access. USDA, EPA, CDBG, IDOT.",
+              animation: <BlueprintAnimation />,
             },
             {
-              t: "No Jobs Lost",
-              d: "Humans Won't Be Fired While Being Replaced By Our System Only Reassigned To Further Help City Growth In Other Areas.",
-              img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80&auto=format&fit=crop",
+              t: "Professional Reports",
+              d: "Download PDF reports formatted for council meetings. Findings, recommendations, priority ratings, and funding sources. Ready to print and present.",
+              animation: <ReportAnimation />,
             },
           ].map((c, i) => (
             <Reveal key={c.t} delay={0.1 + i * 0.1}>
               <div className="overflow-hidden rounded-2xl border border-line bg-card">
                 <div className="aspect-[16/9] overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={c.img}
-                    alt={c.t}
-                    className="h-full w-full object-cover"
-                  />
+                  {c.animation}
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold tracking-tight">{c.t}</h3>
@@ -81,13 +77,13 @@ export function ForCities() {
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="max-w-3xl text-3xl font-semibold leading-tight tracking-tight text-white md:text-5xl">
-            for cities all across the world.
+            for villages and small cities that deserve better tools.
           </h2>
         </Reveal>
         <div className="mt-12 max-w-2xl space-y-5 text-lg leading-relaxed text-white/80">
           <Reveal delay={0.1}>
             <p>
-              Any City Still Struggling With Any Insufficiency Whether It Be Energy, Waste, Water, Finance, Etc M14O Is Made For That City. No City In The World Has Reached Full Sustainability... Yet. Some Have Come Close But At A Very High Cost And After A Very Long Time. M14O Speeds This Process Up And Lowers The Cost For Success.
+              For villages and small cities under 15,000 people that need infrastructure intelligence but can&apos;t afford $50,000 consulting engagements. If your city has aging pipes, vacant lots, or infrastructure you haven&apos;t been able to assess, this is built for you.
             </p>
           </Reveal>
         </div>

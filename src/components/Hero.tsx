@@ -34,7 +34,7 @@ export function Hero() {
           transition={{ duration: 0.6, ease }}
           className="mb-6 text-sm font-medium uppercase tracking-[0.2em] text-white/70"
         >
-          M14O — the city operating system
+          M14O | AI infrastructure intelligence
         </motion.p>
 
         <h1 className="max-w-4xl text-[2.75rem] font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl">
@@ -44,7 +44,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15, ease }}
           >
-            ITS TIME FOR THE FUTURE OF CITY OPERATION
+            AI Infrastructure Intelligence for Small Cities
           </motion.span>
         </h1>
 
@@ -54,7 +54,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.5, ease }}
           className="mt-7 max-w-xl text-lg leading-relaxed text-white/80"
         >
-          M14O is an Operating System That Runs Cities End To End. Controlling A Hardware Ecosystem To Monitor, Control, and Rebuild City Infrastructure.
+          Upload your municipal data. Get consultant-grade analysis in 60 seconds. Infrastructure risks, sustainability opportunities, redevelopment blueprints, and funding recommendations. What costs $50,000 from a consulting firm, we deliver for a fraction of the price.
         </motion.p>
 
         <motion.div
@@ -64,16 +64,16 @@ export function Hero() {
           className="mt-10 flex flex-wrap items-center gap-3"
         >
           <a
-            href="#join"
+            href="mailto:founders@m14o.com"
             className="rounded-full bg-white px-7 py-3 text-sm font-medium text-black transition-transform hover:-translate-y-0.5"
           >
-            Contact
+            Request a Free Pilot Analysis
           </a>
           <a
             href="#intro"
             className="rounded-full border border-white/30 px-7 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10"
           >
-            see how it works
+            See How It Works
           </a>
         </motion.div>
       </div>
